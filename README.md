@@ -36,12 +36,17 @@ Zip Code Query:
 - 49534
 - 49534, US
     
-### Get Current Weather by Device Location
+### Get Current Weather by Location
 - To Retrieve the Current Weather by Device Location
     1. Launch app
     2. Click the Current Location icon in the Search bar in the upper right hand corner
     3. Device may ask permisson to your location as Location Services if it's disabled
     4. The weather results will load according to your location (Latitude and Longitude coordinates will be displayed in the search bar)
+    
+### BONUS
+Try enabling Dark Mode :sunglasses:
+    
+## Other App Info
     
 ### App Architecture
 
