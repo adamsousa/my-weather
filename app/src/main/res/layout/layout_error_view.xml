@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="icon"
+            type="android.graphics.drawable.Drawable" />
+
+        <variable
+            name="headerText"
+            type="String" />
+
+        <variable
+            name="subHeaderText"
+            type="String" />
+
+        <variable
+            name="buttonText"
+            type="String" />
+    </data>
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/empty_view_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/empty_view_icon_image_view"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitCenter"
+            android:src="@{icon}"
+            android:visibility="@{icon != null ? View.VISIBLE : View.GONE}"
+            tools:src="@drawable/ic_sunset" />
+
+        <TextView
+            android:id="@+id/empty_view_header_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="@{headerText}"
+            android:textSize="25sp"
+            tools:text="Header Text" />
+
+        <TextView
+            android:id="@+id/empty_view_sub_header_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center"
+            android:text="@{subHeaderText}"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:visibility="@{subHeaderText != null ? View.VISIBLE : View.GONE}"
+            tools:text="Sub Header Text" />
+
+        <Button
+            android:id="@+id/empty_view_action_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@{buttonText}"
+            android:visibility="@{buttonText != null ? View.VISIBLE : View.GONE}" />
+
+    </LinearLayout>
+</layout>

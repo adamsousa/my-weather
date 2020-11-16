@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MyWeather</string>
+
+    <string name="fragment_current_weather">Current Weather</string>
+    <string name="fragment_five_day_forecast">Five Day Forecast</string>
+
+    <!-- Current Weather -->
+    <string name="label_pressure">Pressure:</string>
+    <string name="label_humidity">Humidity:</string>
+    <string name="label_temp_min">Minimum Temp:</string>
+    <string name="label_temp_max">Maximum Temp:</string>
+    <string name="label_wind_speed">Wind Speed:</string>
+    <string name="label_clouds">Clouds:</string>
+
+    <string name="label_hpa">hPa</string>
+    <string name="label_degree_f">°F</string>
+    <string name="label_mph">mph</string>
+
+    <string name="label_clear_sky">Clear sky</string>
+    <string name="label_few_clouds">Few clouds</string>
+    <string name="label_scattered_clouds">Scattered clouds</string>
+    <string name="label_broken_clouds">Broken clouds</string>
+    <string name="label_overcast_clouds">Overcast clouds</string>
+
+    <string name="label_weather_search_hint">Enter a city name or zip code</string>
+    <string name="label_current_weather_instructions">Search for the current weather by entering a city name, zip code, or by pressing the current location button above.</string>
+
+    <string name="error_retrieve_weather">Failed to retrieve weather, please check your connection.</string>
+    <string name="error_retrieve_weather_city">The city name entered does not exist, please enter a valid city.</string>
+    <string name="error_retrieve_weather_zip">The zip code name entered does not exist, please enter a valid zip code.</string>
+    <string name="error_retrieve_weather_location">Failed to retrieve weather at your location.</string>
+
+    <string name="error_current_weather_header">Unable to Load Weather</string>
+    <string name="error_current_weather_sub_header">Please confirm city/zip code is correct</string>
+    <string name="label_retry">Retry</string>
+
+    <string name="error_location_validation_failed">Failed to validate current location, please try again later.</string>
+    <string name="error_enable_location_permission">Please enable location permission and try again.</string>
+
+    <!-- Open Weather API -->
+    <string name="open_weather_api_key">cf002751564a4c78f5f7ed479f1b9ba3</string>
+    <string name="open_weather_icon_url">https://openweathermap.org/img/wn/%1$s@2x.png</string>
+</resources>

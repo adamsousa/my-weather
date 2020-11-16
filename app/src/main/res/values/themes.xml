@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyWeather" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/buttercup</item>
+        <item name="colorPrimaryVariant">@color/buttered_rum</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">@color/bright_turquoise</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/sun_glow</item>
+        <item name="colorSecondaryVariant">@color/buddha_hold</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/buttercup</item>
+        <item name="colorPrimaryDark">@color/buttered_rum</item>
+        <item name="colorAccent">@color/bright_turquoise</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="CardView.Base" parent="CardView" >
+        <item name="cardElevation">@dimen/elevation</item>
+        <item name="cornerRadius">5dp</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Theme.CardView" parent="CardView.Base">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+</resources>
