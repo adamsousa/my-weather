@@ -28,7 +28,7 @@ City Name Query:
 - London
 - London, GB
 - Saint Louis
-- Saint Louis, Missouri, US
+- Saint Louis, MO, US
 
 Zip Code Query:
 - 63101
